@@ -8,15 +8,14 @@ const db = require('./config/mongoose');
 
 
 //testing to connect DB
-mongoose
-  .connect("mongodb+srv://Himanshu0312:Himanshu0312@cluster0.mfvafuh.mongodb.net/", {
-    useNewUrlParser: true,
-    useUnifiedTopology: true,
-    useCreateIndex: true,
-    useFindAndModify: false,
-  })
-  .then(() => console.log("DB Connected"))
-  .catch(() => console.log(err));
+// mongoose.connect("mongodb+srv://Himanshu0312:Himanshu0312@cluster0.mfvafuh.mongodb.net/", {
+//     useNewUrlParser: true,
+//     useUnifiedTopology: true,
+//     useCreateIndex: true,
+//     useFindAndModify: false,
+//   })
+//   .then(() => console.log("DB Connected"))
+//   .catch(() => console.log(err));
 
 
 
